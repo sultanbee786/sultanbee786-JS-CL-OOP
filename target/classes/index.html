@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JS-CL-JSON</title>
+</head>
+
+<body>
+    
+    <h2>OOP Coding Lab</h2>
+
+    <header>
+        <div id="intro">
+            <p>In this exercise, you will need to use <strong>object-oriented programming</strong> in order to complete this lab. Navigate to the
+                <strong><code>index.js</code></strong> file and complete the 1 exercise within it. You should not edit the
+                code in this file, but you can test out the functionality using the form to the right.
+            </p>
+        </div>
+
+        <div>
+            <p>Fill out this form to create a new Product object to add to the Available Products List below.</p>
+            <form id="productForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description"><br>
+
+                <label for="productType">Choose a product type:</label>
+                <select id="productType">
+                    <option value="" selected></option>
+                    <option value="BathProduct">Bath Product</option>
+                    <option value="FoodProduct">Food Product</option>
+                </select>
+
+                <div id="optionalInput">
+
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </header>
+
+    <hr>
+
+    <p>Available Products List:</p>
+    <main>
+        
+        <div class="card">
+            Name: Best Lotion<br>
+            Description: Generic-brand lotion<br>
+            Scent: Apple
+        </div>
+
+        <div class="card">
+            Name: Best Soap<br>
+            Description: Generic-brand soap<br>
+            Scent: Fresh cut grass
+        </div>
+
+        <div class="card">
+            Name: Best Deodorant<br>
+            Description: Generic-brand deodorant<br>
+            Scent: Clean linen
+        </div>
+
+
+    </main>
+</body>
+<script src="index.js"></script>
+
+</html>
